@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="{{configuration param="charset"}}">
+  <meta name="keywords" content="{{configuration param="meta_keywords"}}">
+  <meta name="description" content="{{configuration param="meta_description"}}">
+  <meta name="viewport" content="width=device-width" />
+  <title>{{configuration param="wakka_name"}} : {{currentpage}}</title>
+  {{linkstyle}}
+  {{linkrss}}
+</head>
+
+<body {{parambody}}>
+  <header>
+    <h1>
+      <a id="img_header" href="./">
+        <img src="themes/jnci/images/header.png" alt="JNCI">
+      </a>
+    </h1>
+  </header>
+  <article id="main" role="main" {{doubleclic}}>
+    {WIKINI_PAGE}
+  </article>
+  <nav>
+    {{include page="PageMenu" doubleclic="0" actif="1"}}
+  </nav>
+  <footer>
+    {{include page="PageFooter" doubleclic="1"}}
+  </footer>
+	{{linkjavascript}}
+</body>
+</html>
