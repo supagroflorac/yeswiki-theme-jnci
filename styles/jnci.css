@@ -98,6 +98,7 @@ nav li a:hover {
   }
 
   footer {
+    order: 4;
     background: #626262;
     flex: 0 1 100%;
     margin-top: 32px;
