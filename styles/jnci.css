@@ -60,6 +60,19 @@ nav li a:hover {
   box-shadow: none !important;
 }
 
+footer {
+  color: #EAE555;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 @media (min-width: 50em) {
 
   body {
